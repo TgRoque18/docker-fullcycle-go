@@ -22,6 +22,4 @@ docker images --format "{{.Repository}}: {{.Size}}" | findstr fullcycle
 # rodar
 docker run --rm tgroque/fullcycle:latest
 
-# publicar (faça 'docker login' antes)
-docker push tgroque/fullcycle:latest
 ```
